@@ -1,0 +1,1055 @@
+*{
+    box-sizing: border-box;
+    direction: rtl;
+}
+.header{
+    background-color: rgba(190, 198, 206, 0.625);
+    width: 100%;
+    height: 60px;
+}
+.ul1{
+    position: absolute;
+ top: 8px;
+}
+.ul1 li{
+    display: inline;
+    list-style: none;
+}
+.ul1 li a:hover,.ul2 li a:hover{
+    color: rgb(0, 0, 0);
+}
+.ul1 li a{
+    text-decoration: none;
+    padding-left: 25px;
+    font-size: xx-large;
+    color: rgb(121, 115, 115);
+    
+}
+.h1{
+    font-size: xx-large;
+    color: black;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: 8px;
+    text-align: center;
+    /* margin-bottom: 20px; */
+    font-size: 40px;
+    position: relative;
+    right: 700px;
+}
+.h8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.p1{
+    color: rgb(255, 0, 0);
+    position:absolute;
+    top: 10px;
+    left: 350px;
+    font-size: large;
+}
+
+.ul2 li{
+    display: inline;
+    list-style: none;
+    
+}
+.ul2 li a{
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: large;
+    color: rgb(121, 115, 115);
+}
+/* .text{
+    margin-right: 350px;
+    height: 30px;
+    text-align: left;
+} */
+.image1{
+    background: url(imageForMen/Annotation\ 2023-10-18\ 231224.jpg);
+    width: 100%;
+    height: 600px;
+    margin-bottom: 40px;
+
+}
+.div1{
+    background-color: rgba(186, 191, 196, 0.674);
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center; 
+}
+.div1:hover{
+    background-color: rgba(121, 123, 126, 0.674);
+}
+.a1{
+    text-decoration: none;
+    font-size: x-large;
+    margin-right: 15px;
+    color: black;
+    
+}
+.img{
+    width: 80px;
+    height: 80px;
+    margin-right: 60px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.flex1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    
+}
+
+.h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+.ul3 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.ul3 li a{
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+    margin-left: 40px;
+}
+.ul3 li a:hover{
+    color: rgb(6, 6, 246);
+}
+.BestSellers{
+    display: flex;
+    justify-content: space-around;
+}
+.BestSellers div{
+    margin-left: 40px;
+}
+.size{
+    font-size: large;
+    position: relative;
+    /* top: 0px; */
+    text-decoration: none;
+    color: black;
+}
+.size:hover{
+    color: blue;
+}
+.price{
+    font-size: x-large;
+    font-weight: 800;
+    position: relative;
+    top: -20px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.image3{
+    background: url(imageForMen/الاكثرمبيعا/1.jpg);
+    width: 230px;
+    height: 300px;
+}
+.image3:hover{
+    
+    background: url(imageForMen/الاكثرمبيعا/6.jpg);
+    transition-duration: 1s;
+}
+.image4{
+    background: url(imageForMen/الاكثرمبيعا/2.jpg);
+    width: 230px;
+    height: 300px;
+}
+.image4:hover{
+    background: url(imageForMen/الاكثرمبيعا/8.jpg);
+    transition-duration: 1s;
+}
+.image5{
+    background: url(imageForMen/الاكثرمبيعا/3.jpg);
+    width: 230px;
+    height: 300px;
+}
+.image5:hover{
+    background: url(imageForMen/الاكثرمبيعا/7.jpg);
+    transition-duration: 1s;
+}
+.image6{
+    background: url(imageForMen/الاكثرمبيعا/4.jpg);
+    width: 230px;
+    height: 300px;
+}
+.image6:hover{
+    background: url(imageForMen/الاكثرمبيعا/5.jpg);
+    transition-duration: 1s;
+}
+.image77{
+    background: url(https://i.pinimg.com/236x/10/f0/af/10f0af20353f3853090d44e495a96eb5.jpg);
+    width: 230px;
+    height: 300px;
+}
+.image77:hover{
+    
+    background: url(https://i.pinimg.com/236x/21/88/09/21880984dbdd6942c07c5a6edc9446dc.jpg);
+    transition-duration: 1s;
+}
+.image88{
+    background: url(https://i.pinimg.com/236x/0b/0c/9c/0b0c9c90c9b8ec435219be46af1620b5.jpg);
+    width: 230px;
+    height: 300px;
+}
+.image88:hover{
+    
+    background: url(https://i.pinimg.com/236x/9a/c5/0f/9ac50fbebc58a3ca3d3088d66e22d7fb.jpg);
+    transition-duration: 1s;
+}
+.image99{
+    background: url(https://i.pinimg.com/236x/9c/91/ce/9c91ce54746eb0de391d393e8ca80b48.jpg);
+    width: 230px;
+    height: 300px;
+}
+.image99:hover{
+    
+    background: url(https://i.pinimg.com/236x/35/12/a3/3512a3fab439ebaed58578cc6fa1c4f0.jpg);
+    transition-duration: 1s;
+}
+.image110{
+    background: url(https://i.pinimg.com/236x/b4/ed/95/b4ed95e82d3a174e84ea1fdc4a7a74c4.jpg);
+    width: 230px;
+    height: 300px;
+}
+.image110:hover{
+    
+    background: url(https://i.pinimg.com/236x/89/a0/42/89a042c3154e573eaf2d53ed1b76f812.jpg);
+    transition-duration: 1s;
+}
+.input{
+    width: 250px;
+    height: 40px;
+    font-size: larger;
+    background-color: white;
+    margin-bottom: 40px;
+}
+.input:hover{
+    background-color: rgb(185, 180, 180);
+}
+.Offers{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.Offers1{
+    background: url(imageForMen/عروض/1.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+    
+}
+.Offers1 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    width: 45px;
+    height: 60px;
+    font-size: large;
+    font-weight:bolder;
+    
+}
+.Offers2{
+    background: url(imageForMen/عروض/2.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+    
+}
+.Offers2 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    width: 45px;
+    height: 60px;
+    font-size: large;
+    font-weight:bolder;
+    
+}
+.Offers3{
+    background: url(imageForMen/عروض/3.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+    
+}
+.Offers3 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    width: 45px;
+    height: 60px;
+    font-size: large;
+    font-weight:bolder;
+    
+}
+.Offers4{
+    background: url(imageForMen/عروض/4.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+    
+}
+.Offers4 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    width: 45px;
+    height: 60px;
+    font-size: large;
+    font-weight:bolder;
+    
+}
+.Offers5{
+    background: url(imageForMen/عروض/5.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+    
+}
+.Offers5 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    width: 45px;
+    height: 60px;
+    font-size: large;
+    font-weight:bolder;
+    
+}
+.Offers6{
+    background: url(imageForMen/عروض/6.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+    
+}
+.Offers6 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    width: 45px;
+    height: 60px;
+    font-size: large;
+    font-weight:bolder;
+    
+}
+.Offerss1{
+    background: url(https://i.pinimg.com/236x/34/13/2d/34132d6af2e27ff0b5090a45ea2c478d.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+    
+}
+.Offerss1 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    width: 45px;
+    height: 60px;
+    font-size: large;
+    font-weight:bolder;
+    
+}
+.Offerss2{
+    background: url(https://i.pinimg.com/236x/cb/fe/1f/cbfe1fbc5f2976f036c234d24cfe67b9.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+    
+}
+.Offerss2 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    width: 45px;
+    height: 60px;
+    font-size: large;
+    font-weight:bolder;
+    
+}
+.Offerss3{
+    background: url(https://i.pinimg.com/236x/73/98/c4/7398c4fdd40dc9070f4a22d2c0609469.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+    
+}
+.Offerss3 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    width: 45px;
+    height: 60px;
+    font-size: large;
+    font-weight:bolder;
+    
+}
+.Offerss4{
+    background: url(https://i.pinimg.com/236x/74/dd/a2/74dda23bc7fad1dfda85278da6e56032.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+    
+}
+.Offerss4 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    width: 45px;
+    height: 60px;
+    font-size: large;
+    font-weight:bolder;
+    
+}
+.Offerss5{
+    background: url(https://i.pinimg.com/236x/11/1a/cd/111acd8d86b391c59f2e64a0f07b30bb.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+    
+}
+.Offerss5 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    width: 45px;
+    height: 60px;
+    font-size: large;
+    font-weight:bolder;
+    
+}
+.Offerss6{
+    background: url(https://i.pinimg.com/236x/fe/95/e1/fe95e1dbe05a7b4f532dd6b0dd7f4c28.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+    
+}
+.Offerss6 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    width: 45px;
+    height: 60px;
+    font-size: large;
+    font-weight:bolder;
+    
+}
+.p2{
+    color: red;
+    font-size: larger;
+    font-weight: 700;
+}
+.p2 del{
+    color: black;
+    font-size: medium;
+}
+.h3{
+    text-align: center;
+    margin: 120px 0px 60px 0px;
+    font-size: 50px;
+}
+.image7{
+    background: url(imageForMen/أكتشف_أكثر/1.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image8{
+    background: url(imageForMen/أكتشف_أكثر/2.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image9{
+    background: url(imageForMen/أكتشف_أكثر/3.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image10{
+    background: url(imageForMen/أكتشف_أكثر/4.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image11{
+    background: url(imageForMen/أكتشف_أكثر/5.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image12{
+    background: url(imageForMen/أكتشف_أكثر/6.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image13{
+    background: url(imageForMen/أكتشف_أكثر/7.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image14{
+    background: url(imageForMen/أكتشف_أكثر/8.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image15{
+    background: url(imageForMen/أكتشف_أكثر/9.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+
+.image16{
+    background: url(imageForMen/أكتشف_أكثر/10.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}.image17{
+    background: url(imageForMen/أكتشف_أكثر/11.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image18{
+    background: url(imageForMen/أكتشف_أكثر/12.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image19{
+    background: url(imageForMen/أكتشف_أكثر/13.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image20{
+    background: url(imageForMen/أكتشف_أكثر/14.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image21{
+    background: url(imageForMen/أكتشف_أكثر/15.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+
+.image22{
+    background: url(imageForMen/أكتشف_أكثر/16.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image23{
+    background: url(imageForMen/أكتشف_أكثر/17.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image24{
+    background: url(imageForMen/أكتشف_أكثر/18.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image25{
+    background: url(imageForMen/أكتشف_أكثر/19.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image26{
+    background: url(imageForMen/أكتشف_أكثر/20.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image27{
+    background: url(https://i.pinimg.com/236x/b3/05/a6/b305a6967d215d99de913dbe2d90bb4e.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image28{
+    background: url(https://i.pinimg.com/236x/60/a0/6e/60a06e2deb103e45d07e339b768b53f1.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image29{
+    background: url(https://i.pinimg.com/236x/a8/a9/1b/a8a91b5a89b9bca6c1e760ff44f19a15.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image30{
+    background: url(https://i.pinimg.com/236x/16/6b/c5/166bc5872de5e69a8fd99182074a1c3c.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image31{
+    background: url(https://i.pinimg.com/236x/ee/30/81/ee30815a661dfef8dc4f7982fc246150.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image32{
+    background: url(https://i.pinimg.com/474x/c8/e2/a0/c8e2a08a8df893a3ed9c7ae838df3e89.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image33{
+    background: url(https://i.pinimg.com/236x/b7/7b/bf/b77bbf4527ff9595ec0d23daa95ce7b2.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image34{
+    background: url(https://i.pinimg.com/236x/83/14/51/83145150aba78aa2c1d96b7327598422.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image35{
+    background: url(https://i.pinimg.com/236x/a4/11/30/a41130c604e6f64accc8dadc9230ff1b.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image36{
+    background: url(https://i.pinimg.com/236x/54/09/e1/5409e18899913cf9c1483aa72dc17933.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image37{
+    background: url(https://i.pinimg.com/474x/ca/48/af/ca48af9b8298e529f92c5ea6c073eb6a.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image38{
+    background: url(https://i.pinimg.com/236x/50/ce/cd/50cecd7a40026511b88e6af714a49c52.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image39{
+    background: url(https://i.pinimg.com/236x/54/09/e1/5409e18899913cf9c1483aa72dc17933.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image40{
+    background: url(https://i.pinimg.com/236x/bb/f5/94/bbf594226f2012663b07869bcc7c0353.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image41{
+    background: url(https://i.pinimg.com/236x/67/7f/cc/677fcc6fef8aedc6815e01728f658a69.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image42{
+    background: url(https://i.pinimg.com/236x/79/20/de/7920de8f47718ad5e7343599817259a0.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image43{
+    background: url(https://i.pinimg.com/236x/01/29/1a/01291aa902fcf3a512cab9fbdfcf2fcb.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image44{
+    background: url(https://i.pinimg.com/236x/46/f8/82/46f882896c1eb5138227cb241ecb95bd.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image45{
+    background: url(https://i.pinimg.com/236x/b3/a4/ac/b3a4ace97b0155f1337ca3518bb2f05b.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.image46{
+    background: url(https://i.pinimg.com/236x/72/ca/92/72ca925aa81e21326a2c5570fcd4eaed.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.footer{
+    background-color: rgb(242, 236, 236);
+    width: 100%;
+    height: 450px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.ul4 li{
+    list-style: none;
+    margin-bottom: 22px;
+}
+.ul4 li a{
+    text-decoration: none;
+    color: rgb(84, 80, 80);
+}
+.ul4 li a:hover{
+    color: black;
+}
+.ul4 li p{
+    font-size: x-large;
+}
+.button1{
+    width: 150px;
+    height: 41px;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    position: relative;
+    left: 6px;
+
+}
+.button1:hover{
+    background-color: rgb(73, 71, 71);
+}
+.email{
+    width: 300px;
+    height: 41px;
+    position: relative;
+    bottom: 2px;
+}
+.label{
+    font-size: larger;
+}
+.imag1{
+    background: url(imagWoman/background.jpg);
+    width: 100%;
+    height: 600px;
+    margin-bottom: 40px;
+}
+
+.Offer1{
+    background: url(imagWoman/عروض/1.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+    
+}
+.Offer1 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    width: 45px;
+    height: 60px;
+    font-size: large;
+    font-weight:bolder;
+    
+}
+.Offer2{
+    background: url(imagWoman/عروض/2.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+    
+}
+.Offer2 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    width: 45px;
+    height: 60px;
+    font-size: large;
+    font-weight:bolder;
+    
+}
+.Offer3{
+    background: url(imagWoman/عروض/3.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+    
+}
+.Offer3 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    width: 45px;
+    height: 60px;
+    font-size: large;
+    font-weight:bolder;
+    
+}
+.Offer4{
+    background: url(imagWoman/عروض/4.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+    
+}
+.Offer4 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    width: 45px;
+    height: 60px;
+    font-size: large;
+    font-weight:bolder;
+    
+}
+.Offer5{
+    background: url(imagWoman/عروض/5.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+    
+}
+.Offer5 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    width: 45px;
+    height: 60px;
+    font-size: large;
+    font-weight:bolder;
+    
+}
+.Offer6{
+    background: url(imagWoman/عروض/6.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+    
+}
+.Offer6 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    width: 45px;
+    height: 60px;
+    font-size: large;
+    font-weight:bolder;
+}
+.imag7{
+    background: url(imagWoman/الاحدث/1.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.imag8{
+    background: url(imagWoman/الاحدث/2.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.imag9{
+    background: url(imagWoman/الاحدث/3.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.imag10{
+    background: url(imagWoman/الاحدث/4.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.imag11{
+    background: url(imagWoman/الاحدث/5.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.imag12{
+    background: url(imagWoman/الاحدث/6.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.imag13{
+    background: url(imagWoman/الاحدث/7.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.imag14{
+    background: url(imagWoman/الاحدث/8.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.imag15{
+    background: url(imagWoman/الاحدث/9.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+
+.imag16{
+    background: url(imagWoman/الاحدث/10.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}.imag17{
+    background: url(imagWoman/الاحدث/11.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.imag18{
+    background: url(imagWoman/الاحدث/12.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.imag19{
+    background: url(imagWoman/الاحدث/13.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.imag20{
+    background: url(imagWoman/الاحدث/14.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.imag21{
+    background: url(imagWoman/الاحدث/15.jpg);
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+}
+.imageChild3{
+    background: url(children/background.jpg);
+    width: 100%;
+    height: 600px;
+    margin-bottom: 40px;
+
+}
+.text{
+    height: 35px;
+}
+.fa-magnifying-glass{
+    font-size: larger;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    position: relative;
+    left: 5px;
+}
+.surch{
+    position: relative;
+    right: 800px;
+    top: 15px;
+}
+.icons4{
+    position: relative;
+    right: 820px;
+    top: 15px;
+}
+.fa-user,.fa-cart-shopping,.fa-heart,.fa-headphones,.fa-coins
+{
+    margin: 0px 10px;
+    font-size: x-large;
+    color: rgb(90, 89, 89);
+}
+.fa-user:hover,.fa-cart-shopping:hover,.fa-heart:hover,.fa-headphones:hover,.fa-coins:hover{
+    color: black;
+}
+.none{
+    display: none;
+    position: relative;
+    right: 600px;
+    top:40px;
+}
+.none ul
+{
+    background-color: white;
+}
+.none ul li{
+    list-style: none;
+    margin: 10px 0px;
+    color: rgb(117, 117, 117);
+}
+.none ul li:hover{
+    color: black;
+    cursor: pointer;
+}
+.currency{
+    display: none;
+    background-color: white;
+    width: 250px;
+    height: 130px;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+    right: 560px;
+}
+.international{
+    text-decoration: none;
+    position: relative;
+    right: 50px;
+    top: 15px;
+}
+.currency select{
+    width: 200px;
+    position: relative;
+    right: 10px;
+    top: 5px;
+    border: 1px solid black;
+}
+.currency select option{
+    border-bottom: 1px solid black;
+}
+
